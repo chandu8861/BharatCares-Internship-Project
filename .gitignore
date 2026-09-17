@@ -1,0 +1,88 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ================================
+# Virtual Environment
+# ================================
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# Streamlit
+# ================================
+.streamlit/secrets.toml
+
+# ================================
+# IDE / Editors
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# OS Generated Files
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+
+# ================================
+# Temporary / Cache Files
+# ================================
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ================================
+# Environment / Credentials
+# ================================
+*.pem
+*.key
+*.crt
+
+# ================================
+# Local Data / Database Files
+# ================================
+# Ignore local databases and temporary data
+*.db
+*.sqlite
+*.sqlite3
+
+# ================================
+# Backup Files
+# ================================
+*.bak
+*.backup
+*~

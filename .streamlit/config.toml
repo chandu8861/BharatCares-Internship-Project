@@ -1,0 +1,34 @@
+# Streamlit app theme. `base` is intentionally NOT pinned: the app follows the
+# viewer's OS setting and the in-app Settings -> Theme switcher (light / dark).
+# Designed token sets for both variants live in [theme.light] and [theme.dark].
+# The Python code adapts at runtime via st.context.theme.type plus configured
+# theme values, so custom user colours are honoured too.
+
+[theme]
+baseRadius = "medium"
+showWidgetBorder = true
+showSidebarBorder = true
+
+[theme.light]
+primaryColor = "#1F6FEB"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F6FA"
+textColor = "#1B2430"
+borderColor = "#DCE3EC"
+linkColor = "#1F6FEB"
+codeBackgroundColor = "#EEF2F8"
+dataframeHeaderBackgroundColor = "#EDF2F8"
+dataframeBorderColor = "#DCE3EC"
+chartCategoricalColors = ["#1F6FEB", "#0E8F6B", "#C2731A", "#6D4FCF", "#C43E4E", "#0E7C95", "#4C8C2B", "#B4560F"]
+
+[theme.dark]
+primaryColor = "#63A9FF"
+backgroundColor = "#0F1318"
+secondaryBackgroundColor = "#171D26"
+textColor = "#E8EDF4"
+borderColor = "#2A3442"
+linkColor = "#79B8FF"
+codeBackgroundColor = "#101720"
+dataframeHeaderBackgroundColor = "#1D2530"
+dataframeBorderColor = "#2A3442"
+chartCategoricalColors = ["#63A9FF", "#57C99A", "#E7B45C", "#B79BFF", "#F2808D", "#5FC9DE", "#8FD873", "#F0A06A"]
