@@ -78,7 +78,7 @@ jobs:
         run: python analytics.py
 
       - name: Upload reports as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: analytics-reports
           path: reports/
